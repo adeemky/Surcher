@@ -1,0 +1,5 @@
+docker compose up --build
+docker compose exec backend bash
+docker compose exec frontend bash
+
+python manage.py load_demo_data

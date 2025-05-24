@@ -1,0 +1,16 @@
+
+{% extends "admin/base_site.html" %}
+{% load static %}
+
+{% block extrastyle %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/custom_admin.css' %}">
+    <link rel="shortcut icon" href="{% static 'images/s.png' %}" type="image/x-icon">
+{% endblock %}
+
+{% block branding %}
+    <h1 id="site-name">
+        <a href="{% url 'admin:index' %}" style="text-decoration: none; color: inherit;">
+            Surcher Admin Panel
+        </a>
+    </h1>
+{% endblock %}

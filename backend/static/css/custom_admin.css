@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    background-color: #faf9fb;
+    font-family: 'Nunito', sans-serif;
+}
+
+#site-name {
+    font-size: 26px;
+    color: #fefce8;
+    padding: 16px 16px;
+}
+
+.module caption {
+    background: #020617;
+    color: #fefce8;
+}
+
+.button, input[type=submit], input[type=button] {
+    background-color: #020617;
+    color: #fefce8;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover, input[type=submit]:hover, input[type=button]:hover {
+    background-color: #0056b3;
+}
+
+#header {
+    background: #020617 url("/static/images/icon.png") no-repeat 10px center;
+    background-size: 40px;
+    padding-left: 50px;
+}
+
+a {
+    color: #0f172a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #020617;
+}
+
+.change-list table tbody tr:hover {
+    background-color: #faf9fb;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    border: 1px solid #faf9fb;
+    border-radius: 4px;
+    padding: auto 10px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#login-form {
+    background-color: #faf9fb;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+#login-form input {
+    margin-bottom: 16px;
+}
+
+.module {
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    padding: 16px;
+    background-color: #faf9fb;
+}
+
+.change-list table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
